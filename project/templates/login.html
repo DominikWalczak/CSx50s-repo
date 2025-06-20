@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Login
+{% endblock %}
+
+{% block main %}
+    <form action="/login" method="post">
+        <div>
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto"type="text" placeholder="Username" name="username" required>
+        </div>
+        <div>
+            <input class="form-control mx-auto w-auto"type="password" placeholder="Password" name="password" required>
+        </div>
+        <div>
+            <button type="submit" class="btn btn-warning">Login</button>
+        </div>
+    </form>
+    <b></b>
+        <button type="submit" class="btn btn-link"><a class="nav-link" href="/register">Register Now</a></button>
+{% endblock %}
