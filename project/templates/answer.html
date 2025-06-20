@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    CapyType
+{% endblock %}
+
+{% block main %}
+    <h1 class="answer">
+        {% for capurl in capurls %}
+        Your CapyType is {{ capurl["type_pl"] }}!
+    </h1>
+    <img src = {{ capurl["url"] }} class="sizeType rounded">
+        {% endfor %}
+{% endblock %}

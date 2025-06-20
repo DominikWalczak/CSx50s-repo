@@ -1,0 +1,198 @@
+nav .navbar-brand .green
+{
+    color: #1cb806;
+}
+nav .navbar-brand .darkergreen
+{
+    color: #1c9606;
+}
+nav .navbar-brand .darkgreen
+{
+    color: #1c7306;
+}
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+img.size
+{
+    width: 20%;
+}
+img.sizeType
+{
+    width: 30%;
+}
+img.sizeT
+{
+    width: 11%;
+}
+.sidel
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sider
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sidem
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-image: url('https://www.azpetvet.com/wp-content/uploads/AdobeStock_392946527-scaled.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.coverall
+{
+    background-size: cover;
+    background-position: center center;
+    height: 100px;
+}
+.transparent
+{
+    background-color: transparent !important;
+    color: white !important;
+}
+.input-container {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+    width: 400px;
+}
+.white-text .nav-link {
+    color: white !important;
+}
+.app{
+    background:lightblue;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+.app h1{
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom:1px solid #333;
+    padding-bottom: 30px;
+
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+}
+.btnd{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+.btnd:hover:not([disabled]){
+    background: #222;
+    color: #fff;
+
+}
+.btnd:disabled{
+    cursor: no-drop;
+}
+#next-btnd{
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+.selected
+{
+    background: #9aeabc;
+}
+div.type
+{
+    width: 50px;
+}
+div.index{
+    background:lightblue;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.index h1{
+    font-size: 35px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom:1px solid #333;
+    padding-bottom: 30px;
+}
+.index div{
+    font-weight: 500;
+    margin: 20px;
+    padding: 15px;
+    word-wrap: break-word;
+    font-size: 20px;
+}
+tbody.text
+{
+    font-weight: 1000;
+    margin: 20px;
+    padding: 15px;
+    word-wrap: break-word;
+    font-size: 27px;
+}
+tr.color td
+{
+    color:white !important;
+}
+tr.color th
+{
+    color:white !important;
+}
+.BUTTON{
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+h1.answer
+{
+    font-size: 35px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom:1px solid #333;
+    padding-bottom: 30px;
+}
